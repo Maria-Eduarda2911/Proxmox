@@ -1,0 +1,37 @@
+COMANDOS E ENDENTAÇÕES UTILIZADOS NOS MÉTODOS: 
+
+Método 1: 
+
+Comando do usado no Netfilter > $ iptables -t nat -s** _'seu ip'_ **-A POSTROUTING -o -j MASQUERADE
+
+Acessar o arquivo sysctl.conf > $ nano /etc/sysctl.conf 
+
+Método 2:
+
+Instalar o ISCH DHCP: 
+
+sudo apt-get install isc-dhcp-server
+
+Endentação utilizada no dhcpd.conf: 
+
+#!/bin/bash
+authoritative;
+default-lease-time 43200; max-lease-time 43200;
+option dhcp6.name-servers 0::0; #Bloqueia ips ipv6
+log-facility local7;
+subnet 10.12.1.0 netmask 255.255.255.0 {
+authoritative;
+allow client-updates;
+#option ntp-servers 10.12.1.;
+range 10.12.1.11 10.12.1.200;
+#option domain-name proxy.local;
+option domain-name-servers 192.168.100.170;
+option broadcast-address 10.12.1.255;
+option routers 10.12.1.1;
+#deny unknown-clients; #Impede que clientes desconhecidos recebam o IP
+
+Reniciar e iniciar o sistema ISC DHCP :
+
+systemctl restart isc-dhcp-server
+systemctl status isc-dhcp-server
+
