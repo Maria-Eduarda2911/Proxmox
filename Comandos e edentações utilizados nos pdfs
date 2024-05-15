@@ -35,3 +35,7 @@ Reniciar e iniciar o sistema ISC DHCP :
 systemctl restart isc-dhcp-server
 systemctl status isc-dhcp-server
 
+Comando usado no Prompt do windows:
+
+route -p add ip-da-rede-proxmox mask 255.255.255.0 ip-do-gateway-da-rede-destino
+
