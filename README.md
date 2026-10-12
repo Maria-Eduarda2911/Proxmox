@@ -1,4 +1,4 @@
-# 🖥️ Proxmox & Infraestrutura de Redes (ISC-DHCP + Webmin)
+#  Proxmox & Infraestrutura de Redes (ISC-DHCP + Webmin)
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-ativo-success?style=for-the-badge&logo=github" alt="Status Ativo">
@@ -12,6 +12,8 @@
 <p align="center">
   <b>Documentações, comandos essenciais e métodos de distribuição de IPs para ambientes virtualizados utilizando Proxmox, ISC-DHCP e gerenciamento web via Webmin.</b>
 </p>
+
+<img width="960" height="152" alt="image" src="https://github.com/user-attachments/assets/83ac956b-d4f7-44bd-84fc-64350ef68962" />
 
 ---
 
