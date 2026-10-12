@@ -13,7 +13,7 @@
   <b>Documentações, comandos essenciais e métodos de distribuição de IPs para ambientes virtualizados utilizando Proxmox, ISC-DHCP e gerenciamento web via Webmin.</b>
 </p>
 
-<img width="960" height="152" alt="image" src="https://github.com/user-attachments/assets/83ac956b-d4f7-44bd-84fc-64350ef68962" />
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/5c839f80-8d24-46aa-8ef0-8b66a55bbb0e" />
 
 ---
 
