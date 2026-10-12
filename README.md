@@ -24,8 +24,8 @@ Este repositório reúne materiais práticos, guias em PDF e scripts de configur
 ## 🛠️ Tecnologias e Ferramentas
 
 <p>
-  <img src="https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white" alt="Proxmox">
-  <img src="https://img.shields.io/badge/Webmin-7E0505?style=flat-square&logo=webmin&logoColor=white" alt="Webmin">
+  <img src="https://img.shields.io/badge/Proxmox-%23E57000.svg?style=flat-square&logo=proxmox&logoColor=white" alt="Proxmox">
+  <img src="https://img.shields.io/badge/Webmin-%237E0505.svg?style=flat-square&logo=webmin&logoColor=white" alt="Webmin">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
   <img src="https://img.shields.io/badge/Networking-005571?style=flat-square&logo=cisco&logoColor=white" alt="Networking">
 </p>
